@@ -1,0 +1,32 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "E2E test",
+  "main": "index.js",
+  "scripts": {
+    "test": "etest",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergioSoto19/AgroRent_front.git#front"
+  },
+  "keywords": [
+    "e2e",
+    "test",
+    "cypress"
+  ],
+  "author": "carlos zamora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergioSoto19/AgroRent_front/issues"
+  },
+  "homepage": "https://github.com/SergioSoto19/AgroRent_front/tree/front#readme",
+  "devDependencies": {
+    "cypress": "^13.3.1",
+    "selenium": "^2.20.0"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.14.0"
+  }
+}
